@@ -1,0 +1,23 @@
+{
+  "selected": true,
+  "groups": {
+    "discovery": {
+      "n": 313,
+      "before": 272,
+      "after": 276,
+      "gained": 4,
+      "lost": 0,
+      "old_calls": 1240,
+      "new_calls": 1230
+    },
+    "holdout": {
+      "n": 167,
+      "before": 134,
+      "after": 134,
+      "gained": 0,
+      "lost": 0,
+      "old_calls": 724,
+      "new_calls": 721
+    }
+  }
+}

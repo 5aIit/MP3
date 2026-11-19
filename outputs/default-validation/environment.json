@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-11-19T17:00:31.278439+08:00",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "E:\\hku\\DASE7506\\MP3\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "machine": "AMD64",
+  "sqlite": "3.45.1",
+  "sqlglot": "27.29.0",
+  "workers": 4,
+  "score_workers": 4,
+  "method": "E:\\hku\\DASE7506\\MP3\\submission\\rule_agent.py",
+  "checkpoint": "E:\\hku\\DASE7506\\MP3\\submission\\config.json",
+  "pythonpath": "E:\\hku\\DASE7506\\MP3\\submission",
+  "runner_sha256": "c93d1d5dd4943563f3232aa9b02927cbbb00d8bd95e6abfa6e0395a456195f9b",
+  "package_manifest_sha256": "85b645ee9413c36d215253544fd0657679b9e66175b304ee24a386ddeca762a1",
+  "official_files_verified": 497,
+  "resource_limit_verification": "Not performed; wall timings do not establish Linux resource compliance"
+}

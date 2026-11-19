@@ -1,0 +1,64 @@
+{
+  "split": "test",
+  "method": "E:\\hku\\DASE7506\\MP3\\experiments\\accuracy-v2\\offline-canonical-v1\\rule_agent.py",
+  "checkpoint": "E:\\hku\\DASE7506\\MP3\\experiments\\accuracy-v2\\offline-canonical-v1\\config.json",
+  "n": 240,
+  "correct": 186,
+  "accuracy": 77.5,
+  "mean_tool_calls": 3.9791666666666665,
+  "tool_call_distribution": {
+    "2": 37,
+    "3": 90,
+    "4": 43,
+    "5": 26,
+    "6": 17,
+    "7": 9,
+    "8": 18
+  },
+  "final_sql_public_example_matches": 218,
+  "prediction_seconds_official": 41.62365850000015,
+  "scoring_seconds_official": 65.88401709999994,
+  "prediction_wall_seconds": 42.03500890000009,
+  "scoring_wall_seconds": 66.27471880000007,
+  "total_prediction_scoring_wall_seconds": 108.30972770000017,
+  "failed_tasks": 54,
+  "failed_tasks_with_execution_error": 1,
+  "failed_tasks_without_execution_error": 53,
+  "case_error_types": {
+    "OperationalError": 3
+  },
+  "official_package_unchanged": true,
+  "agent_source_unchanged_during_run": true,
+  "predictions_sha256": "c5b347cae1072eff8bac379bc4dd2a425bd08bcd760422967a47b39bdc5b2c7e",
+  "score_sha256": "fac0daed1f995af3a3a58c049b62821b1354794e18a36656e630283687a610fc",
+  "trace_audit": {
+    "tasks": 240,
+    "protocol_constraints_passed": true,
+    "official_tool_replay_passed": true,
+    "tasks_with_tool_feedback": 240,
+    "tasks_starting_with_exact_original_check": 240,
+    "tasks_submitting_changed_sql": 176,
+    "tasks_with_final_sql_checked": 240,
+    "final_sql_public_example_matches": 218,
+    "final_sql_public_example_unchecked": 0,
+    "tool_call_distribution": {
+      "2": 37,
+      "3": 90,
+      "4": 43,
+      "5": 26,
+      "6": 17,
+      "7": 9,
+      "8": 18
+    },
+    "tool_action_counts": {
+      "check": 567,
+      "execute": 41,
+      "repair_hint": 240,
+      "schema": 107
+    },
+    "max_tool_calls": 8,
+    "note": "Public-example matches are not the official three-instance accuracy."
+  },
+  "baseline_comparison": null,
+  "note": "Official accuracy requires all three grading instances; Linux CPU/memory limits are not measured here."
+}

@@ -1,0 +1,28 @@
+{
+  "tasks": 120,
+  "protocol_constraints_passed": true,
+  "official_tool_replay_passed": true,
+  "tasks_with_tool_feedback": 120,
+  "tasks_starting_with_exact_original_check": 120,
+  "tasks_submitting_changed_sql": 89,
+  "tasks_with_final_sql_checked": 120,
+  "final_sql_public_example_matches": 120,
+  "final_sql_public_example_unchecked": 0,
+  "tool_call_distribution": {
+    "2": 22,
+    "3": 39,
+    "4": 14,
+    "5": 21,
+    "6": 15,
+    "7": 6,
+    "8": 3
+  },
+  "tool_action_counts": {
+    "check": 284,
+    "execute": 17,
+    "repair_hint": 120,
+    "schema": 57
+  },
+  "max_tool_calls": 8,
+  "note": "Public-example matches are not the official three-instance accuracy."
+}

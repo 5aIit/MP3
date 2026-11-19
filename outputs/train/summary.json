@@ -1,0 +1,65 @@
+{
+  "split": "train",
+  "method": "E:\\hku\\DASE7506\\MP3\\experiments\\accuracy-v2\\offline-canonical-v1\\rule_agent.py",
+  "checkpoint": "E:\\hku\\DASE7506\\MP3\\experiments\\accuracy-v2\\offline-canonical-v1\\config.json",
+  "n": 480,
+  "correct": 410,
+  "accuracy": 85.41666666666667,
+  "mean_tool_calls": 4.064583333333333,
+  "tool_call_distribution": {
+    "2": 57,
+    "3": 188,
+    "4": 79,
+    "5": 70,
+    "6": 29,
+    "7": 23,
+    "8": 34
+  },
+  "final_sql_public_example_matches": 455,
+  "prediction_seconds_official": 84.06088850000015,
+  "scoring_seconds_official": 136.11343450000004,
+  "prediction_wall_seconds": 84.53769769999985,
+  "scoring_wall_seconds": 136.48391889999994,
+  "total_prediction_scoring_wall_seconds": 221.0216165999998,
+  "failed_tasks": 70,
+  "failed_tasks_with_execution_error": 5,
+  "failed_tasks_without_execution_error": 65,
+  "case_error_types": {
+    "OperationalError": 8,
+    "InvalidSQL": 3
+  },
+  "official_package_unchanged": true,
+  "agent_source_unchanged_during_run": true,
+  "predictions_sha256": "a08ca48d343c3d2fcca7701b9ae6af0ab67d65215f1898d10d0d5208bc52753d",
+  "score_sha256": "3032281bfb5d98a1a4da9c0c8c859eaec547c634eed5944b8e8404960e0652db",
+  "trace_audit": {
+    "tasks": 480,
+    "protocol_constraints_passed": true,
+    "official_tool_replay_passed": true,
+    "tasks_with_tool_feedback": 480,
+    "tasks_starting_with_exact_original_check": 480,
+    "tasks_submitting_changed_sql": 370,
+    "tasks_with_final_sql_checked": 480,
+    "final_sql_public_example_matches": 455,
+    "final_sql_public_example_unchecked": 0,
+    "tool_call_distribution": {
+      "2": 57,
+      "3": 188,
+      "4": 79,
+      "5": 70,
+      "6": 29,
+      "7": 23,
+      "8": 34
+    },
+    "tool_action_counts": {
+      "check": 1176,
+      "execute": 69,
+      "repair_hint": 480,
+      "schema": 226
+    },
+    "max_tool_calls": 8,
+    "note": "Public-example matches are not the official three-instance accuracy."
+  },
+  "baseline_comparison": null,
+  "note": "Official accuracy requires all three grading instances; Linux CPU/memory limits are not measured here."
+}

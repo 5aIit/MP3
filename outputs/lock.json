@@ -1,0 +1,31 @@
+{
+  "rule": "Compare frozen combined policy against the user-selected offline rule baseline on train. Accept only if both groups strictly gain accuracy, or both are at least as accurate with fewer paid calls in both groups and strictly more correct pooled. Otherwise retain the baseline and do not run test. Validation is report-only.",
+  "files": {
+    "absent_relation_rules.py": "3e4560f700fc485febe67cc04bf0103f45aef0bfb529843d22201c406d9d7506",
+    "cardinality_rules.py": "fa9496b0fb31117834973aa4cafc5a9595208b1219529f5facf1123fa6e23eaf",
+    "compact_join_rules.py": "b24db94b1cce33eff4ddec8b71e893df661d74364468e1eaf7ff041d3392e949",
+    "config.json": "c113207279ce929743aa110db6be7c84df2bc568edf7f772bde4fc93c9c995e9",
+    "count_rules.py": "c757de158e6686527f96d05f455d45ddecbbc1c66008787ec34e6ab1c5e33599",
+    "entity_rules.py": "3881ed5abfabcad51ad8e61caf5bb59b43559547bd1d531ba1e3cccb4cb3c1a0",
+    "extreme_rules.py": "377c8b29d0fe3903370c7e80dbc7d3a0a22f5213c5d036c9db4f8331d7753d20",
+    "filter_rules.py": "3e12f695a0cd4d304d91688c15c44d96b69fd6032d22e92af3902e5859c6d616",
+    "final_checks.py": "ac34015003e814f87597f66504abc11918b289a960ba74edd8c36eb392600603",
+    "group_repair.py": "3fd4d7c0aaad52d603e056d02105404377ae1013a63af2381ccebbef271638b5",
+    "header_repair.py": "41dca75ca758605b32cc2aff888a0dbc114bbf3d82c1bfd1e46c28a4f4130cdd",
+    "lexical_rules.py": "7101293fc43981963fe9f34a8c3c7094415ea4f32b126947035d7d6b3662c766",
+    "negation_rules.py": "e83930fd7dbec4b0e10af8ce2c16ab54221a482568d284e7b60f5f2d90202dfa",
+    "relation_rules.py": "a1ee9f4bb9b87f75ecbcf11ccbd149e5f45e64be12fe0b12c65f4d68804a5da6",
+    "repair_rules.py": "2d6ba234648d8f7d77ac1773b26e4be6f3efec7a12cc9c3e06eea20370765e42",
+    "rescue.py": "b42c7a011c8456a27b9cc15340d8e0fa593212627783134a1cc93cfd0bb9fb54",
+    "rule_agent.py": "0c67c3b0052848ed86bcb03de83794e699c06b5b798bd6046811f9a9e561ccb8",
+    "semantic_rules.py": "855efbc7ea99de7e365d482a3b26fe1791945ca0cd1ff607006186456aab47cd",
+    "set_rules.py": "033473f8fa3210170118c5ee94599cb7b93ee715ec4d12dddb32e3a4a5269340",
+    "simplification_rules.py": "8b5d70b456701aefe8763e728fb2d459340e07a4def66265d678d4db83779f41",
+    "single_table_rules.py": "aa48865bcfd365ce76501e949e4f84ca827a30d9927d81005243bbe6d1fd236c",
+    "structural_rules.py": "aa83fb26c8a47bea8ba09211a7bcdb1d861941de613efa959e8f942d955df18e",
+    "submission.py": "a4aa2a8e0b86d089344d481970ffc37b56f7d4a1a2766e436603318564d2b977",
+    "superlative_rules.py": "d50664cb1845e86e3ee84a3d2f4d1d88c8b9a70d29dad05095345b2629d4ee4c",
+    "terminal_rules.py": "3fe6a51cdd508dd980bc64cd35fab1f58fa80bd21b8c3194187ba726078fc108",
+    "value_rules.py": "629c40a4197aac3298d584d8fcd90b3b6c9289c694795d9d46aa970a95832872"
+  }
+}

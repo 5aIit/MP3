@@ -1,0 +1,9171 @@
+{
+  "protocol": "dase7506-sql-repair-v1",
+  "n": 480,
+  "correct": 410,
+  "accuracy": 85.41666666666667,
+  "mean_tool_calls": 4.064583333333333,
+  "per_question": [
+    {
+      "id": "train-adc8bb4c90469db1",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-b596fbe01f7d29df",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-18e61e0b51d41d9f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-c73cc50378dfdfba",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": {
+            "type": "OperationalError",
+            "message": "no such column: characteristic_name"
+          }
+        },
+        {
+          "passed": false,
+          "error": {
+            "type": "OperationalError",
+            "message": "no such column: characteristic_name"
+          }
+        },
+        {
+          "passed": false,
+          "error": {
+            "type": "OperationalError",
+            "message": "no such column: characteristic_name"
+          }
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-94eb85746e51b3f9",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a3f7406d5abebff2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-586a26b875816fb7",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-594f7846a27cf8de",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-a441b48eb189d11e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-743fdd71f2669e0f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-54ae97fe0ce56263",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-58bcf7cb46f91a5c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-a35319d2c5cc53f2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-8e30ecf7769c57ee",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-5f36a874df0ce42d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-813608cd7eac6c1c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-eb21c76293f3be8f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-089c94c444974247",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": {
+            "type": "InvalidSQL",
+            "message": "SQL parse error: Expecting ). Line 39, Col: 162.\n                                                                                WHERE friend = Person.\u001b[4mname\u001b[0m"
+          }
+        },
+        {
+          "passed": false,
+          "error": {
+            "type": "InvalidSQL",
+            "message": "SQL parse error: Expecting ). Line 39, Col: 162.\n                                                                                WHERE friend = Person.\u001b[4mname\u001b[0m"
+          }
+        },
+        {
+          "passed": false,
+          "error": {
+            "type": "InvalidSQL",
+            "message": "SQL parse error: Expecting ). Line 39, Col: 162.\n                                                                                WHERE friend = Person.\u001b[4mname\u001b[0m"
+          }
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-35ad911efe8a7773",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-fa7b46e1fbdb6cdd",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-303afa601d668131",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-fb7d76b0168a3c2c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-fc28953ffd539fd4",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-9cf8e0b5b510276c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-31512a95817aaf41",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-b21519e5accb137e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-b76819b91b4509ed",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-3d237f22a9675815",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-9a6b23dfc463bcbd",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-ab2329ba85fdb84e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-86c3448c73cdca38",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-0fb3cf410fb95089",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-df72e84414697ee2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-9293ef817b331af7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-d2873f0d0a5ea67e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-57c32ae623679b63",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-d050f2a3853feb77",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-5afcc5e9a99426be",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-8e744c3ba8667462",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-4e2af439dbd2e732",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-b7a8ef7d9c9897e6",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-21a3c9b4de450380",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-8e8f5f32bf4bf6dc",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-e1b5dfbc5ea4b463",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-47ae6a9ba238fadf",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-207fe7b5c5762bc0",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-82fc0799128d044d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-cd5a4b149c36067c",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-20210ade279627d0",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-29fa54fd35a2358f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-d6153d98a3bee081",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-b58a7fb90b678870",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-c350382a9d291bea",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-7fead106d06474e6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-e18b4cb2781bcef7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-98ee35c92cdf8888",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-cd9e58b04db398ad",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-234846d0a52131c1",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-c1a0353ebad08379",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a1e00812edad6abe",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-4ff72d4ea9363a0b",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-2081b7a69433b079",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-e1a3cb58913853f7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-a68cce7600203868",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-39b3bfcaec9f5317",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-89786c158337351e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-31fe8ebdf0d79280",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-2c04303e87927e53",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-fce0eb1609320133",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-d15a8f3767669a61",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-013eec3892c82633",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-3e675bf5deb5aee9",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-069336f0e8c52eef",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-a5a3ceac14b25862",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-80fe435824d2c3df",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-855a9ae761763180",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-3e422a58e233bf0a",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-70a0e0b82325ccaa",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a03fa3547fb2d02e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-2bb4132d5573f186",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-9d668beaa0b933fa",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-3c3cdc38fa78ed03",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-7f835a79aaf6ce93",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-25a0b7cfb4c1ee95",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-0463e235c5abe7e8",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-46f94cd164fe4530",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-abb26e6a5c694633",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-605f52af5a5941d3",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-b418b7d36a8f6e72",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-595cd42f4d82274d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-3be8156fa7feff19",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-e6e062d18cbdface",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-1a1ca6ce36878e21",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-bd4d76f20cc02238",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-c69409298c1babeb",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-44606809b59719b2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-edf47d8c53caa4a6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-c2751e1b0f8445f3",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-9298504d6637432f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-14056f233609c04f",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-13c1ad33d770f706",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-7460a2717af25b6a",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a92390b55ea9e8f0",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-d656b09ec4cfd02f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-8fd907d67d2b505f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-5862f321645a8c03",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-cd9f1f2e76a43a5f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-87ebece5bcb602cb",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-10ac6a0d4abde268",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-e384f9615914cc71",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-3875922144161242",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-d677270382049598",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-9d3553bf282c2ec9",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-def599847f336c5c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-8d628eb7000f13b7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-3a0472b52aeb6434",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-a467066980f67eb5",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-8346752aee4d7d6b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-2da5adeed09137f6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-645e7368f82140e1",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-302990f3c1a7a3af",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-92127dd880edf096",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-fccba8a78ff46b21",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-01e6ced9ddce8088",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-da468732a455b48c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-beed28872fa1c0a7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-54d52066b7f487ee",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-124cfda5f578162f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-f10251d657268411",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-1a0e46056c5223f7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-f08c41fc949fa5bc",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-014b085c05cc56cc",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-b6fb576f42735a4b",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-a71a73dd665128c9",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-8ff5a3df8a7ef436",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a99d30ffa165b095",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-95a314f35afc0f75",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-4f5b130901d31075",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-e19353a09ca35d7f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-45d66b4045acfcab",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-53244827712ed225",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-f12a83a54317b891",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-2b14d66b7b30cb1d",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-de00029c59189f9e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-8a4643fe5a0c3589",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-fa68f39eff74905e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-f11f91817ee4e21f",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-51950b86af56b224",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-b123520174d2cff9",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-6cbf558cb723adfe",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-64c9e3bcdb06a181",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-92b07ee055b85bb7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-0a8510716c02c7f6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-4ee5662f50e8baeb",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-d3a67caa1606380e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-384a880f928f8128",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-d9c5ee069e3d5199",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-a0f8d4e375bd5ac6",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-7b2e20350ce40046",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-fc28316bf4515a35",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-f62f4658b8fa9b3a",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-7fa54b7cce7d9c31",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-e4a94ee5bc74b013",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-73816ebb1a368323",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-a9c8daaca663f3ac",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-829265a9041be102",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-7c33438e1d6ba11e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-91a674892b748205",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-eff3577ca327097f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-ca8f3360e9703bd4",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-82f6d7233d8dc210",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-4344583d243d4219",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-af113bd80cf364a0",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-afb78823ede98e59",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-24c12ba31c45b3c1",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-7ee60110adfc378b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-1a0eeaaa411f11ae",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-2afb362aad6d894e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-089b7c47a0376925",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-7be7c8ec29e5b05f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-e5eec3f0c142e787",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-a6b239593dec7901",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-9004a818804a1742",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-21e88476ece12ac7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-fc6553339bc9f5a3",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-bda6eea05fb177de",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-44c9bc13afd05dd6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-a8384325090fb379",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-239dcd874a15c96d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-61692fa742929504",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-e4ffac9f336af8a9",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-52ebf9fbdc4740b5",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-df63b255e423f6da",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-cfa422e9315651d0",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-a07028ac9f8a06b5",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-af5a82784c670851",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-04b59d6b671c9e9d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-b1089024e31f1959",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-d9baea59a1f39500",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-b1ceacaa0b42325a",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-ac3fed335c4052f1",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-511bf511d7c2d431",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-0e4af6c00ed999c4",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-03d7340a164dee19",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-a483f0b3bb0f3c0a",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-3477be4fb3800349",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-c52ad7a1e49dd6fb",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-da24e10f55f3b9af",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-58556cd4739b5d20",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-831cb75f40a29430",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-e8553df1a5388af1",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-fc903a50b5b0b68f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-140ed5becc0dfa18",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-8ad882f6888a5014",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-9fee80045b000f87",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-ccf08e7bb66a0af3",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-d1c40d837ce24a52",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-b84fb522b942b8cf",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-365bd7366e3b5402",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-26def40182b53861",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-cf56d881367633d1",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-cddc748b5b5c8790",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": {
+            "type": "OperationalError",
+            "message": "unable to open database file"
+          }
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-ad04233f6d60d521",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-6ac5f12af6e1f380",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-e0969c7bfcaf14aa",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-2ebc626532d3dc43",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-3d49e6f049fa1aea",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-9eecae6f4f4861f2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-324e9c81acbac1d0",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-b4958bae498f8b7e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-e3a2b59e6efebdf8",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-29c5d9be52ea3ae5",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-4133b076bc478ebc",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-d170ee753d328b28",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-316feb5165ca7f23",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-55085340082f3d41",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-77c5e9d8a42ed457",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-cbaa2b8fac6c40fb",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-928911d7af2b12d6",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-4e6cbf10d5f51acc",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-4fe40b39a226894f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-faf60d3f16a454ab",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-70503776dbfcce79",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-39ec6ab43adf3d9d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-8b6f0263e1c272ab",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-99151caed2dfcd8c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-48b9697eac27c64b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-c8785baa72901849",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-da560b6b7a0924aa",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-358e429f432636c5",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-09a4618c8853a8ba",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-cf75d135a3688131",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-07993568fbe5b953",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-0925fe4cf4f4fdeb",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-8e1132777142ccb6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-3bfff205529365be",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-eec0bbe7c4f0049f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-169abfa716d27747",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-8964ab3c73db6693",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-881d508177db5070",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-afdfe51cb5e4e010",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-cc18390be39fafc2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-1ed30a83b04905bd",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-8f3cdc816448c5b7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-3ec28d0bfa71cb04",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-861897e88cd4c97b",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-619fd1d8adceb63c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-e43c305019b23674",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-d40006af9b588faa",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-ba99b305dde8c8a9",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-cbc4944e4d671156",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-76c2580faa20ec97",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-49d202621626b5cc",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-2b2d8de5d11c7a3d",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-edeea65f52253d9f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-a2fb7de42b335e1d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-8fb59dc7b454a3db",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-0ab49b0d26de32e6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-c4489e86b3c74e1d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-e56818434803031e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-f4044a013c383be6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-b1e61f9b87c40cf5",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-aa4b644a869ad5cf",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-21ae57bccb661a68",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-0b49f517d0d56466",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-81eb0740f043ebe5",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-5d25a4ac6a798445",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-ef02690e86595524",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-e5a6fd71232381be",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-7ac4d61a515d43e5",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-5af09494793f49cc",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-26d2fe0f0d613b71",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-64c9e129f06c583c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-d206659dcceba636",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a658c686f85c064f",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-478a113b45630b36",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-7aeb06366e005666",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-b8bb2754b14adc4b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-303f1a3f10be9a88",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-eeab029d9c82fcb7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-83686e71fd80cf6c",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-94f169a449c3a963",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-7eda169781640fee",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-9ba1fb058e046788",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-0eccd882687469d4",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-f8222bd61eed1856",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-ef6eec157a7de09b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-2e0a6e32440f5261",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-95097daebc7787c6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-6fe9797b2a7dc782",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-1ccc914bd169fa6b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-704f5830a81562ed",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-1e59db56f53daff2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-43ea2a191fff1e8c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-36b90ba506a753e2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-e8430381eda90a6e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-2979e2d2c9d11169",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-2f4aae5c00c66e40",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-3a4034dbf625377f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-c792569ea9025b61",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-5711a68e00a58dab",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-3f6a11fd7358ef39",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-82fde3c487c1785b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-df9e976ed6481735",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-3da28649a3fa22e9",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-f220bbfc64a0205f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-4e41d7ad9e89a2ee",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-df49a090e1191727",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-9b2dbbe062cd32b9",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-f7fe11541174f450",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-6ffd9e8286bb9057",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-08b4531c9bcb72e2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-c20ce7c60550aad1",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-badc67c0e3bb975d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-1305bbdd1ed7ab04",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-49ec2abae154e519",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-34bda2d06aa362d0",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-e8c393ded3f1f6b7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-9d9c5c07fc78a763",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-a3cfb56e66cc8d5b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-1cf9e9ef249e6172",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-46a7653b084fb5e0",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-77fbe49d92ca5a8f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-350da26d095fa6c2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-d3cac4b8a409cc58",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-6879e98b6cd54ea6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-b8b7d9380d12063a",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-fd1408498162dab8",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-de08594b4d031902",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-bec6c5a336d7f984",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-e37d507ff31c6fb8",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-7f39bf15d85e52fa",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-d3fd06eeaaf6eb90",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-de9cff78fbf37ca4",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-f5872dc5b2d9d77b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-055f591105f048a6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-af36ac8cc6308411",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-f5d14b06f769bf9e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-486036d2071dc32b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-559decd70600219c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-e72a0469a829f0e6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-cdb283e43e405ca7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-999d1ef3fbfb7dae",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-058f5da2e8886f16",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-75500d9015b99797",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-fc8720c95292b1d0",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a3e48317847c119f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-41add909245fd363",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-7f947d182cd1666f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-37edfd8b76381f09",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-b9a9b00b4f24fab8",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-ca364df9233f8fbd",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-5caa43c0f8604c6d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a4b6ea385ae1887d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-3ffb660c63dc6910",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-0dd4556e442a0a44",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-19886ebe749ac61d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-4437a08250758431",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-f45d1fc2791a022d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-abae4215b9bfb215",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-e1b99c4baa3b4765",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-c78a44fe2b515403",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-60bd2285198668cf",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-6336bdedebe587a0",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-0d7f08e42a2cbead",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-b18d83619b2b2bef",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-36cf9096be3f2ecb",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-135f96f133e70b78",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-061127fb8bf5c43f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-c942eff56be17e38",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-14111abcb2e1a7d0",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-3776a93f46398d8b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-5da5df5fc8212e3f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-4d294d3f160bf551",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-cd84fd0c8210c709",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-76d3f62ba5fe19b6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a7b63d843da0bf7a",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-65127c58a2bbe712",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-43621509eedfb6b8",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-b0d1437606df73fa",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-afba9096dc8509b7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-093bca4853141ff7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-5dbc428267ae8911",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-7882d91008a27082",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-a5a2c400553158c2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-26fbd300bc0880e2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-8877e969ccf7298a",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-6ff1809f8cee4083",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-1b1d185143e780ff",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-a0e4994d1ebbd730",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-3867462ccd08e8f4",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-00cb9d6e03b3c6d1",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-b12bd9275e80db0b",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-fbc022474661e657",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-539be4f304e556bf",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-ec7244fbb7621b8f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-56a77660fb819e43",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-0f67e28e8661487c",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-f8a5fadb81cd441b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-0b18dff5e19acf72",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-31875d1f7227abd2",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-3002a73d4254f758",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": {
+            "type": "OperationalError",
+            "message": "no such column: employees.COUNTRY_ID"
+          }
+        },
+        {
+          "passed": false,
+          "error": {
+            "type": "OperationalError",
+            "message": "no such column: employees.COUNTRY_ID"
+          }
+        },
+        {
+          "passed": false,
+          "error": {
+            "type": "OperationalError",
+            "message": "no such column: employees.COUNTRY_ID"
+          }
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-0734d10a6ad1f315",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-0435b2ae58fc2b0a",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-92106dc1eafbabac",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-581e6a4d883a1eef",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-b56da9135c34af69",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-41ece4cbb7cf957d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-a42431039bf78269",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-25601a1c48b6dff8",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-93b46169237e52db",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-966358d49fd47f11",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-0e496bf9efc1c931",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-f1e1cde7301124d4",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-bb4b4044deef1c16",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-b74a718b452e7047",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-d785a3fb3f3b9f51",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-296b25842ec56d11",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-17aa11fecd41f49b",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-f61c4c324f6d6059",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-63a2cd8822ffffe6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-2f1c987188d754c5",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-afc4150a7af145f9",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-cde4cd066a46dc38",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-322ca4e227c12f9d",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-450172906b35f9f1",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-0364a71934f98011",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-010a7509b636e1ba",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-f239b0cc60061b24",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-cea2e824eb091b3f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 7
+    },
+    {
+      "id": "train-fd3a071c2f3e3c00",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-3f6976a7d7b323b6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-4171b79830673f34",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-2c2b8b331757e885",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-b0240ed6bf78de17",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-6134c591a55b5282",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-6cfd83986b9abbd6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-6df0b1b3ba1c615d",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": {
+            "type": "OperationalError",
+            "message": "unable to open database file"
+          }
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-09fe9adcd214d2fd",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-f65a353ba85a37d8",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-fa814bc2f05c4257",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-0c77d4ce6054661e",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-cab43443de66803a",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-653d8d6d7efce13e",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-0b66b4f4ef440dc5",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "train-c391c1649fc5a0f7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-35c758cd23d51deb",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-359e5cadcc5fc451",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-83a9fa1e6cece7e0",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 8
+    },
+    {
+      "id": "train-865681217053c817",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-42e0fe2c67509a9e",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-422d584400e5145f",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-f5113ff306837dfc",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-d8cfb2b2b6dd01dd",
+      "passed": false,
+      "cases": [
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-aa2dc563d37f5423",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-ac9bd498133599c7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "train-e5982841ef130850",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 2
+    },
+    {
+      "id": "train-ecc17dd83734f218",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    },
+    {
+      "id": "train-fe5f1350463bb4e6",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "train-1d94f9a8b43cd5b7",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 3
+    }
+  ],
+  "split": "train",
+  "benchmark": "spider-sql-repair-public-evaluation-v3",
+  "manifest_sha256": "bf7a517249ebe31b9cad8cbf5d6598fde98316d89f9aa1172cae3ad83289a6bc",
+  "bank_sha256": "562d6d54cbfac83829cf528a3b8ca5f101994c9fe5b1a502519beba328900f65",
+  "references_sha256": "def39effca9b1efe78f7316d71739111b8c8290dd0897db5e6655293fca24da7",
+  "scorer_sha256": "87870af26173fbe6d8994e4de179fb272ef1fadf7dcaafc2e7b4c814c61ec95b",
+  "executor_sha256": "4ecc3839728d68bd83f0d2a52cdd8392fd76dbaec3e54a19422118dee587b471",
+  "predictions_sha256": "a08ca48d343c3d2fcca7701b9ae6af0ab67d65215f1898d10d0d5208bc52753d",
+  "scoring_seconds": 136.11343450000004
+}

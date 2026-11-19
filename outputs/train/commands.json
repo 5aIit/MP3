@@ -1,0 +1,67 @@
+[
+  {
+    "name": "pip-check",
+    "command": [
+      "E:\\hku\\DASE7506\\MP3\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "cwd": "E:\\hku\\DASE7506\\MP3\\MP3_SQL_student_package",
+    "wall_seconds": 1.5444657000000461,
+    "returncode": 0
+  },
+  {
+    "name": "pip-freeze",
+    "command": [
+      "E:\\hku\\DASE7506\\MP3\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "freeze",
+      "--all"
+    ],
+    "cwd": "E:\\hku\\DASE7506\\MP3\\MP3_SQL_student_package",
+    "wall_seconds": 1.2054011000000173,
+    "returncode": 0
+  },
+  {
+    "name": "predict",
+    "command": [
+      "E:\\hku\\DASE7506\\MP3\\.venv\\Scripts\\python.exe",
+      "-m",
+      "mp3_sql.predict",
+      "--split",
+      "train",
+      "--method",
+      "E:\\hku\\DASE7506\\MP3\\experiments\\accuracy-v2\\offline-canonical-v1\\rule_agent.py",
+      "--workers",
+      "4",
+      "--output",
+      "E:\\hku\\DASE7506\\MP3\\outputs\\accuracy-v2\\offline-canonical-v1\\train\\train.json",
+      "--checkpoint",
+      "E:\\hku\\DASE7506\\MP3\\experiments\\accuracy-v2\\offline-canonical-v1\\config.json"
+    ],
+    "cwd": "E:\\hku\\DASE7506\\MP3\\MP3_SQL_student_package",
+    "wall_seconds": 84.53769769999985,
+    "returncode": 0
+  },
+  {
+    "name": "score",
+    "command": [
+      "E:\\hku\\DASE7506\\MP3\\.venv\\Scripts\\python.exe",
+      "-m",
+      "mp3_sql.score",
+      "--split",
+      "train",
+      "--workers",
+      "4",
+      "--predictions",
+      "E:\\hku\\DASE7506\\MP3\\outputs\\accuracy-v2\\offline-canonical-v1\\train\\train.json",
+      "--output",
+      "E:\\hku\\DASE7506\\MP3\\outputs\\accuracy-v2\\offline-canonical-v1\\train\\train-score.json"
+    ],
+    "cwd": "E:\\hku\\DASE7506\\MP3\\MP3_SQL_student_package",
+    "wall_seconds": 136.48391889999994,
+    "returncode": 0
+  }
+]

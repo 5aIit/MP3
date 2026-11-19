@@ -1,0 +1,16 @@
+{
+  "protocol": "dase7506-sql-repair-v1",
+  "n": 480,
+  "correct": 410,
+  "accuracy": 85.41666666666667,
+  "mean_tool_calls": 4.064583333333333,
+  "split": "train",
+  "benchmark": "spider-sql-repair-public-evaluation-v3",
+  "manifest_sha256": "bf7a517249ebe31b9cad8cbf5d6598fde98316d89f9aa1172cae3ad83289a6bc",
+  "bank_sha256": "562d6d54cbfac83829cf528a3b8ca5f101994c9fe5b1a502519beba328900f65",
+  "references_sha256": "def39effca9b1efe78f7316d71739111b8c8290dd0897db5e6655293fca24da7",
+  "scorer_sha256": "87870af26173fbe6d8994e4de179fb272ef1fadf7dcaafc2e7b4c814c61ec95b",
+  "executor_sha256": "4ecc3839728d68bd83f0d2a52cdd8392fd76dbaec3e54a19422118dee587b471",
+  "predictions_sha256": "a08ca48d343c3d2fcca7701b9ae6af0ab67d65215f1898d10d0d5208bc52753d",
+  "scoring_seconds": 136.11343450000004
+}
